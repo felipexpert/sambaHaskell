@@ -18,6 +18,6 @@ will be done for you. Also the passwords will be generated
 automatically
 
 *Note: remember to restart Samba after changes
-*Note: remember to add permition to a newSambaUser.bash 
+*Note: remember to add permision to a newSambaUser.bash 
 ################################################################
 </pre>
