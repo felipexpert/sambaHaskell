@@ -1,4 +1,11 @@
 # sambaHaskell
+
+<p>To create new users run: </p>
+
+<pre>runghc defineSambaUser.hs</pre>
+
+<p>So you will be presented with the following instruction: </p>
+
 <pre>
 ################################################################
 Instructions: 
@@ -21,3 +28,12 @@ automatically
 *Note: remember to add permision to a newSambaUser.bash 
 ################################################################
 </pre>
+
+<p>To discover a password, run: </p>
+
+<pre>runghc discoverUserPassword.hs</pre>
+
+<p>*Note: if you want to create automatically from a username text file,
+YOu could do: </p>
+
+ <pre>cat names.txt | runghc defineSambaUser.hs<pre>
